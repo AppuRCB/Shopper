@@ -12,6 +12,7 @@ public class Openbrowser {
      driver.manage().window().minimize();
      Thread.sleep(2000);
      driver.quit();
+     driver.close();
 	}
 
 }
